@@ -1,0 +1,4 @@
+name ,address, cust_num,city,state,zipcode,email,phone
+cust1,address1,1,Omaha,NE,68106,abc@gmail.com,111-111-1111
+cust2,address2,2,Lincoln,NE,68107,xyz@yahoo.com,222-222-2222
+cust3,address3,3,Albany,NY,68108,abc@hotmail.com,333-333-3333
