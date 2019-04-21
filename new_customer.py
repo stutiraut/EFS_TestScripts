@@ -24,9 +24,9 @@ class EFSTest(unittest.TestCase):
        elem = driver.find_element_by_xpath("/html/body/div/div[2]/div[1]/div[2]/table/tbody/tr[2]/td[1]/a").click()
        time.sleep(1)
        data = open('customer.csv')
-       datareader = csv.reader(data) #read data from csv file
-       for row in datareader:
-           if datareader.line_num == 1:
+       reader = csv.reader(data) #read data from csv file
+       for row in reader:
+           if reader.line_num == 1:
                continue
            else:
                name = row[0]
